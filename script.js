@@ -1,5 +1,5 @@
 const h2 = document.createElement('h2');
-h2.textContent = 'This content has been added using JavaScript!';
+h2.textContent = 'This is me';
 
 document.querySelector('body').appendChild(h2);
 
