@@ -19,3 +19,12 @@ body {
     width: 20%;
     height: auto;
   }
+
+  div {
+    background: rgba(255, 72, 0, 0.829);
+    color: rgba(182, 8, 182, 0.644);
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+  }
