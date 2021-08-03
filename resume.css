@@ -1,0 +1,45 @@
+body {
+    background: rgb(255, 115, 0);
+    color: rgba(182, 8, 182, 0.644);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+  }
+  
+div#education {
+      background: rgb(255, 115, 0);
+      color: purple;
+      width: 40%;
+      padding: 25px;
+      text-align: justify;
+      margin-bottom: 25px;
+      box-shadow: 0px 0px 10px 10px;
+  }
+
+div#experience {
+    background: rgb(255, 115, 0);
+    color: purple;
+    width: 40%;
+    padding: 25px;
+    text-align: justify;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+div#skills {
+    background: rgb(255, 115, 0);
+    color: purple;
+    width: 40%;
+    padding: 25px;
+    text-align: justify;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+div#skills ul li{
+    list-style: none;
+    float: left;
+}
