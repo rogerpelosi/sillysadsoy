@@ -1,26 +1,76 @@
 body {
-    background: rgb(255, 115, 0);
-    color: rgba(182, 8, 182, 0.644);
-    text-align: center;
-    font-size: 95px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 25px;
-    margin-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+  background: rgb(255, 115, 0);
+  color: rgba(182, 8, 182, 0.644);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
+div {
+  background: rgba(255, 72, 0, 0.829);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 5px;
+  text-align: center;
+}
 
+h1.intro {
+  text-align: center;
+  font-size: 135px;
+  letter-spacing: 25px;
+}
+ 
 
-  div {
-    background: rgba(255, 72, 0, 0.829);
-    color: rgba(182, 8, 182, 0.644);
-    width: 500px;
-    text-align: center;
+div.ring {
+  border-style: solid;
+  border-color: lime;
+  border-width: 10px;
+}
+
+div p.button a {
     text-decoration: none;
-    margin: 0 auto;
-    box-shadow: rgba(255, 72, 0, 0.829);
+    font-size: 95px;
+    letter-spacing: 25px;
+    color: purple;
   }
+
+div#formality {
+  background: rgb(255, 115, 0);
+  color: purple;
+}
+
+div#formality ul li a {
+  color: purple;
+}
+
+body div.content {
+    background: rgb(255, 115, 0);
+    color: purple;
+    width: 50%;
+    padding: 25px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+div.content ul#skillset li,
+div#formality ul#contact li {
+  display: inline;
+}
+
+hr.line {
+  border: 3px solid rgba(182, 8, 182, 0.644);
+  border-radius: 2px;
+}
 
 a {
   color: rgba(182, 8, 182, 0.644);
