@@ -1,9 +1,36 @@
-const h2 = document.createElement('h2');
-h2.textContent = 'This is me';
+//FOR CONTENT DIVS & HR TO CHANGE WHEN HOVERED OVER
+const element = document.getElementsByClassName("content");
+for (const el of element) {
 
-document.querySelector('body').appendChild(h2);
+    el.onmouseover = function() {mouseOver()};
+    el.onmouseout = function() {mouseOut()};
 
-const h3 = document.createElement('h3');
-h3.textContent = 'this was as well :-)';
+    const lineElement = el;
 
-document.querySelector('body').appendChild(h3);
+    function mouseOver() {
+        el.style.color = "lime";
+        el.style.backgroundColor = "rgb(46, 123, 238)";
+        const lineEl = document.querySelector('div.content hr.line');
+        lineEl.style.borderColor = "purple";
+        };
+    
+    function mouseOut() {
+        el.style.color = "purple";
+        el.style.backgroundColor = "rgb(255, 115, 0)";
+        const lineEl = document.querySelector('div.content hr.line');
+        lineEl.style.borderColor = "rgba(182, 8, 182, 0.644)";
+        };
+
+};
+
+
+//FOR EMAIL COLOR CHANGE WHEN HOVERED OVER
+const word = document.getElementById("mail");
+word.onmouseover = function() {mouseOverEmail()};
+word.onmouseout = function() {mouseOutEmail()};
+function mouseOverEmail() {
+    word.style.color = "lime";
+};
+function mouseOutEmail() {
+    word.style.color= "purple";
+};
